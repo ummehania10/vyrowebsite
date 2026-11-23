@@ -537,9 +537,12 @@ footer>p {
     .about-container img {
         height: 600px;
     }
-    .third-image-aboutsection {
-        
-    }
+    .third-image-aboutsection{
+    grid-column: 1 / -1;
+        width: 50%;
+        justify-self: center;
+        text-align: center;
+        }
 
     /* GALLERY */
     #campaign-gallery {
